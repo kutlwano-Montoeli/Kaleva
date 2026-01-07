@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=poppins")
-{
-	margins: 5;
+@import url("https://fonts.googleapis.com/css2?family=poppins");
+
+.a{
+	margin: 5;
 	padding: 5;
 	font-family: 'poppins', sans-serif;
 	box-sizing: border-box;
 }
 body{
 	display: flex;
-	min height:100vh;
+	min-height:100vh;
 	justify-content:center;
 	align-items:center;
 	background:#ADD8E6;
@@ -22,20 +23,20 @@ body{
 }
 input{
 	position: absolute;
-	Width:	100%
+	Width:	100%;
 	outline: none;
 	Font-size: 2.5em;
 	padding: 0 30px;
-	line-height: 100px
-	border-radius: 10px
+	line-height: 100px;
+	border-radius: 10px;
 	border: 3px solid #ADD8E6;
 	background: transparent;
-	transition: 0.1s ease
+	transition: 0.1s ease;
 	z-index: 1111;
 }
 .labelline{
 	position: absolute;
-	font-size: 1.6em
+	font-size: 1.6em;
 	color: #800080;
 	padding: 0px;
 	margin: 0 20px;
@@ -58,7 +59,7 @@ input:valid + .labelline{
 }
 h1{
 	display: flex;
-	margins: 5;
+	margin: 5;
 	padding: 5;
 	font-family: 'poppins', sans-serif;
   	position: absolute;
@@ -98,7 +99,7 @@ h1{
 }
 .dropdown:hover .dropbtn {background-color: #728FCE;
 }
-<style>
+
   .submit-container {
     margin-top: 20px;
     padding: 10px;
@@ -120,4 +121,3 @@ h1{
   .submit-button:hover {
     background-color: #45a049;
   }
-</style>
